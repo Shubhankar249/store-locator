@@ -31,7 +31,7 @@ app.post('/api/stores', async (req, res)=> {
         // getting storeId and address as req
         const store = await Store.create(req.body); // creates a doc with the specified types
 
-        return res.status(200).json({
+        return res.status(201).json({
             success: true,
             data: store
         })

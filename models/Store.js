@@ -1,4 +1,6 @@
 const mongoose = require('mongoose');
+const geocoder = require('../utils/geocoder');
+
 const StoreSchema = new mongoose.Schema({
     storeId: {
         type:String,
@@ -23,5 +25,18 @@ const StoreSchema = new mongoose.Schema({
         formattedAddress:String
     }
 }, {timeStamp: true});
+
+// Creating a mongoose middleware for creating location from address
+StoreSchema.pre('save', async function (next) {
+    const loc = await geocoder.geocode(this.address);
+    this.location = {
+        type:'Point',
+        coordinates: [loc[0].latitude,loc[0].longitude],
+        formattedAddress:loc[0].formattedAddress
+    }
+
+    this.address = undefined;   // address will not be saved in database
+    next()
+});  // this runs before saving data on db
 
 module.exports = mongoose.model('Store', StoreSchema);
