@@ -26,6 +26,23 @@ app.get('/api/stores', async (req, res) => {
         res.status(500).json({error:'Server Error'})
     }
 })
+app.post('/api/stores', async (req, res)=> {
+    try {
+        // getting storeId and address as req
+        const store = await Store.create(req.body); // creates a doc with the specified types
+
+        return res.status(200).json({
+            success: true,
+            data: store
+        })
+    }catch (e) {
+        console.error(e);
+        if (e.code===11000)
+            return res.status(400).json({error:'This store already exists'})
+
+        res.status(501).json({error:'Server Error'})
+    }
+})
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT);
