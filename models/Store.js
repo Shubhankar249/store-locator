@@ -21,8 +21,7 @@ const StoreSchema = new mongoose.Schema({
             index: '2dsphere'  //supports queries that cal geometries on an Earth like sphere
         },
         formattedAddress:String
-    },
-    timeStamp:true
-});
+    }
+}, {timeStamp: true});
 
 module.exports = mongoose.model('Store', StoreSchema);
