@@ -13,6 +13,8 @@ connectDB();
 app.use(express.json());
 app.use(cors());    // enable cors -> cross platform data sharing
 
+app.use(express.static(path.join(__dirname, 'public')));
+
 app.get('/api/stores', async (req, res) => {
     try {
         const stores = await Store.find();
