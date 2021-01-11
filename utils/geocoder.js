@@ -5,7 +5,7 @@ const options = {
     provider: 'mapquest',
 
     httpAdapter:'https',
-    apiKey:'',  // API KEY here
+    apiKey:'72AW7ukYO1RaDnnDAnr9vmQr8AMKxWaf',  // API KEY here
     formatter: null
 };
 
