@@ -2,9 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6227b30a-6b3b-485e-a098-1c7c8da36e48" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/store-locator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/store-locator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/config.env" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Store.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/add.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/add.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils/geocoder.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/geocoder.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +44,10 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.19.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="10.17.60" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -74,7 +90,8 @@
       <workItem from="1599497618300" duration="28000" />
       <workItem from="1599541157293" duration="4679000" />
       <workItem from="1599547406718" duration="261000" />
-      <workItem from="1610381343882" duration="465000" />
+      <workItem from="1610381343882" duration="1350000" />
+      <workItem from="1630385209123" duration="1365000" />
     </task>
     <servers />
   </component>
@@ -82,25 +99,25 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1218" y="311" width="424" height="483" key="FileChooserDialogImpl" timestamp="1599547665568">
+    <state x="743" y="311" width="424" height="483" key="FileChooserDialogImpl" timestamp="1610383657082">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1218" y="311" width="424" height="483" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1599547665568" />
-    <state width="917" height="80" key="GridCell.Tab.0.bottom" timestamp="1599545836635">
+    <state x="743" y="311" width="424" height="483" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1610383657082" />
+    <state width="1897" height="287" key="GridCell.Tab.0.bottom" timestamp="1610383658922">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="917" height="80" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1599545836635" />
-    <state width="917" height="80" key="GridCell.Tab.0.center" timestamp="1599545836631">
+    <state width="1897" height="287" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1610383658922" />
+    <state width="1897" height="287" key="GridCell.Tab.0.center" timestamp="1610383658922">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="917" height="80" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1599545836631" />
-    <state width="917" height="80" key="GridCell.Tab.0.left" timestamp="1599545836630">
+    <state width="1897" height="287" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1610383658922" />
+    <state width="1897" height="287" key="GridCell.Tab.0.left" timestamp="1610383658921">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="917" height="80" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1599545836630" />
-    <state width="917" height="80" key="GridCell.Tab.0.right" timestamp="1599545836632">
+    <state width="1897" height="287" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1610383658921" />
+    <state width="1897" height="287" key="GridCell.Tab.0.right" timestamp="1610383658922">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="917" height="80" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1599545836632" />
+    <state width="1897" height="287" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1610383658922" />
   </component>
 </project>
